@@ -51,6 +51,11 @@ section {
 }
 
 /* Menú */
+#menu {
+    text-align: center;
+    padding: 40px;
+}
+
 .menu-item {
     background: white;
     padding: 20px;
@@ -59,6 +64,14 @@ section {
     max-width: 400px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu-text {
+    text-align: left;
+    flex: 1;
 }
 
 .menu-item h3 {
@@ -68,6 +81,18 @@ section {
 .menu-item span {
     font-weight: bold;
     color: #F5863F;
+}
+
+.menu-image {
+    flex: 0.5;
+    text-align: right;
+}
+
+.menu-image img {
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    object-fit: cover;
 }
 
 /* Formulario de pedido */
